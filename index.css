@@ -75,24 +75,14 @@ article{
 #apresentacao{
 	width: 65%;
 	margin-left: 20%;
-}
-
-#apresentacao div{
-	border-radius: 50%;
 	text-shadow: 5px 5px 5px black, 5px 5px 5px blue;
+	border-radius: 50%;
+	border: 1px solid black;
 }
 
-#conteudo-principal{
-	background-color: rgba(60, 63, 255, 1);
-	border-radius: 50%;
-	position: relative;
-	padding-top: 10%;
-	right: 50%;
-	top: 40%;
-	color: white;
-	padding-left: 50%;
-	margin-top: 50%;
-	height: 250px;
+.rosto{
+	padding-top: 25%;
+	padding-bottom: 5%;
 }
 
 #contato{
@@ -210,7 +200,7 @@ iframe{
 	}
 
 	.botao-ajuste{
-	margin-top: 30%;
+		margin-top: 30%;
 	}
 
 	#img-descricao{
@@ -247,6 +237,49 @@ iframe{
 	#contato{
 		position: relative;
 		left: 30%;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.mudarTamanho li a{
+		font-size: 30px;
+	}
+
+	#mudarBotao{
+		position: absolute;
+		left: 70%;
+		bottom: 20%;	
+	}
+
+	.rosto{
+		position: relative;
+		right: 10%;
+		top: 20%;
+		margin-top: 35%;
+	}
+
+
+	#apresentacao, h1, h2{
+		font-size: 30px;
+		width: 100%;
+		position: relative;
+		right: 10%;
+		
+	}
+
+	#apresentacao{
+		width: 100%;
+		border-radius: 0;
+	}
+
+	.linkedin{
+		position: relative;
+		left: 75%;
+		top: 0;
+	}
+
+	.carousel-control-prev, .carousel-control-next{
+		margin-top: 90%;
 	}
 }
 

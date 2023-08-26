@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+
+body{
+	background-image: url('imagens/bg-teste.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: sans-serif;
+}
+
+
+header, section{
+	border-radius: 10%;
+}
+
+main{
+	border-radius: 0 0 10% 10%;
+}
+
+article{
+	border-radius: 5%;
+}
+
+/*---------Header--------*/
+#inicio{
+	background-color: rgba(60, 63, 255, 1);	
+	background-image: url('imagens/pagina-fundo3.png');
+	background-size: 100px 100px;
+	animation: movimentoDireita 20s linear infinite;
+	background-repeat: round;	
+}
+
+@keyframes movimentoDireita{
+    0%{
+       background-position: 0 0 , 0 0;
+    }
+
+    50%{
+       background-position: 50% 0, 70% 0;
+    }
+
+    100%{
+       background-position: 100% 0, 100% 0;
+    }
+}
+
+/*---------Nav--------*/
+#navegacao{
+	background-color: rgba(225, 225, 225, 0.01);
+	padding-left: 50%;
+	border: 0 #000;
+	backdrop-filter: blur(10px);
+}
+
+.estrelaInvisivel{
+		width: 0;
+	}
+
+/*---------Logo--------*/
+#logo{
+	position: relative;
+	right: 90%;
+}
+
+#logo img{
+	border-radius: 50%;
+}
+
+.nome{
+	margin-top: -17px;
+	border: none;
+}
+
+/*----------Apresentacao-----*/
+#apresentacao{
+	width: 65%;
+	margin-left: 20%;
+}
+
+#apresentacao div{
+	border-radius: 50%;
+	text-shadow: 5px 5px 5px black, 5px 5px 5px blue;
+}
+
+#conteudo-principal{
+	background-color: rgba(60, 63, 255, 1);
+	border-radius: 50%;
+	position: relative;
+	padding-top: 10%;
+	right: 50%;
+	top: 40%;
+	color: white;
+	padding-left: 50%;
+	margin-top: 50%;
+	height: 250px;
+}
+
+#contato{
+	position: relative;
+	left: 45%;
+	bottom: 40%;
+	border: 5px outset darkblue;
+}
+
+/*------------Cursos-------------------*/
+
+.logo-cursos{
+	margin-top: 15%;
+	border-radius: 5%;
+}
+
+#cursos, #projetos{
+	text-shadow: 5px 5px 5px black, 5px 5px 5px yellow;
+}
+
+.fullscreen{
+	cursor: pointer;
+	position: relative;
+}
+
+.fullscreen:hover{
+	transition: all .4s linear;
+	-webkit-transition: all .4s linear;
+	-webkit-transform: scale(1.4);
+}
+
+iframe{
+	border: 1px solid white;
+  	border-radius: 4px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	height: 20px;
+	margin-top: 50%;
+}
+
+/*--------------------Projeto----------*/
+
+.botao-ajuste{
+	margin-top: 20%;
+}
+
+/*--------------descrição----------*/
+
+#fim{
+	position: relative;
+	background-color: rgba(60, 63, 255, 1);	
+	background-image: url('imagens/pagina-fundo3.png');
+	background-size: 100px 100px;
+	animation: movimentoDireita 20s linear infinite;
+	background-repeat: round;
+	margin-top: 10%;
+	padding-top: 10%;
+	/*padding-bottom: 10%;*/
+	width: 102%;
+	right: 1%;
+}
+
+@keyframes movimentoDireita{
+    0%{
+       background-position: 0 0 , 0 0;
+    }
+
+    50%{
+       background-position: 50% 0, 70% 0;
+    }
+
+    100%{
+       background-position: 100% 0, 100% 0;
+    }
+}
+
+#img-descricao{
+	border-radius: 20% 0 0 20%;
+}
+
+.descricao{
+	border-radius: 20%;
+	height: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+
+.linkedin{
+	position: relative;
+	bottom: 10%;
+	left: 90%;
+}
+
+.linkedin:hover{
+	-webkit-transition: all .4s ease-in-out;
+	-webkit-transform: scale(1.4);
+}
+
+/*---------------------------------*/
+
+
+@media only screen and (max-width: 991px){
+
+	.mudarTamanho li a{
+		font-size: 20px;
+	}
+
+	.col-6{
+		width: 100%;
+	}
+
+	.col-4{
+		width: 50%;
+	}
+
+	.botao-ajuste{
+	margin-top: 30%;
+	}
+
+	#img-descricao{
+		width: 90%;
+		position: relative;
+		top: 9%;
+	}
+
+	.linkedin{
+		position: relative;
+		left: -10%;
+		top: 50%;
+	}
+
+	#sobre-mim{
+		font-size: 50px;
+		text-align: center;
+	}
+
+	#udemy-logo{
+		position: relative;
+		margin-bottom: -10%;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	#contato{
+		position: relative;
+		left: 40%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#contato{
+		position: relative;
+		left: 30%;
+	}
+}
+
+
+
+

@@ -181,9 +181,6 @@ iframe{
 	-webkit-transform: scale(1.4);
 }
 
-*{
-		border: 1px solid black;
-	}	
 
 /*---------------------------------*/
 
@@ -249,10 +246,10 @@ iframe{
 		font-size: 30px;
 	}
 
-	/*#mudarBotao{
+	#mudarBotao{
 		position: absolute;
-		right: 100%;
-	}*/
+		left: 70%;
+	}
 
 	.rosto{
 		position: relative;
@@ -275,15 +272,19 @@ iframe{
 		padding-left: 0;
 	}
 
-	/*.linkedin{
-		position: absolute;
-		left: 0;
+	.linkedin{
+		position: relative;
+		left: 75%;
 		top: 0;
-	}*/
+	}
 
 	.carousel-control-prev, .carousel-control-next{
 		margin-top: 90%;
 	}
+
+	*{
+		border: 1px solid black;
+	}	
 	
 }
 

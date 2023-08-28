@@ -247,8 +247,8 @@ iframe{
 @media only screen and (max-width: 465px){
 	#info{
 		position: relative;
-		top: -20px;
-		left: 5%;
+		top: -5px;
+		left: 2%;
 	}
 
 	#contato{

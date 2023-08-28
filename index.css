@@ -245,6 +245,13 @@ iframe{
 }
 
 @media only screen and (max-width: 465px){
+	#inicio{
+		background-color: rgba(60, 63, 255, 1);	
+		background-image: url('imagens/pagina-fundo3.png');
+		background-size: 100px 300px;
+		animation: movimentoDireita 20s linear infinite;
+		background-repeat: round;	
+	}
 
 	.mudarTamanho li a{
 		font-size: 30px;

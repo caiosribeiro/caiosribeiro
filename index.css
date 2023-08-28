@@ -258,18 +258,16 @@ iframe{
 
 	.rosto{
 		position: relative;
-		right: 10%;
-		top: 20%;
-		margin-top: 35%;
+		right: 10%;	
 	}
 
 
 	#apresentacao, h1, h2{
 		font-size: 30px;
-		width: 50%;
+		width: 100%;
 		position: relative;
 		right: 10%;
-		top: 120px;
+		top: 50px;
 	}
 
 	#apresentacao{

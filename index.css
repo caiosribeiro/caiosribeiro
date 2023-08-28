@@ -250,6 +250,10 @@ iframe{
 		bottom: 20px;
 	}
 
+	#inicio{
+		height: 800px;
+	}
+
 	.mudarTamanho li a{
 		font-size: 30px;
 	}

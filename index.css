@@ -171,12 +171,12 @@ iframe{
 }
 
 .linkedin{
-		position: relative;
-		left: -10%;
-		top: 50%;
+	position: relative;
+	bottom: 10%;
+	left: 90%;
 }
 
-.linkedin:hover{
+#linkedin-logo:hover{
 	-webkit-transition: all .4s ease-in-out;
 	-webkit-transform: scale(1.4);
 }

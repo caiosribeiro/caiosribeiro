@@ -247,8 +247,9 @@ iframe{
 	}
 
 	#mudarBotao{
-		position: absolute;
-		left: 70%;
+		position: relative;
+		bottom: 110px;
+		left: 50%;
 	}
 
 	.rosto{
@@ -274,17 +275,13 @@ iframe{
 
 	.linkedin{
 		position: relative;
-		left: 75%;
-		top: 0;
+		right: 15%;
+		top: 210px;
 	}
 
 	.carousel-control-prev, .carousel-control-next{
 		margin-top: 90%;
 	}
-
-	*{
-		border: 1px solid black;
-	}	
 	
 }
 

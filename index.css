@@ -181,6 +181,10 @@ iframe{
 	-webkit-transform: scale(1.4);
 }
 
+*{
+	border-radius: 1px solid black;
+}
+
 
 /*---------------------------------*/
 

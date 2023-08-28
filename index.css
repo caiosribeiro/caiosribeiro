@@ -245,12 +245,9 @@ iframe{
 }
 
 @media only screen and (max-width: 465px){
-	#inicio{
-		background-color: rgba(60, 63, 255, 1);	
-		background-image: url('imagens/pagina-fundo3.png');
-		background-size: 100px 300px;
-		animation: movimentoDireita 20s linear infinite;
-		background-repeat: round;	
+	#contato{
+		position: relative;
+		bottom: 20px;
 	}
 
 	.mudarTamanho li a{
@@ -268,13 +265,12 @@ iframe{
 		right: 10%;	
 	}
 
-
 	#apresentacao, h1, h2{
 		font-size: 30px;
 		width: 100%;
 		position: relative;
 		right: 10%;
-		top: 50px;
+		top: 70px;
 	}
 
 	#apresentacao{

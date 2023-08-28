@@ -9,7 +9,6 @@ body{
 	overflow-x: hidden;
 }
 
-
 header, section{
 	border-radius: 10%;
 }
@@ -172,15 +171,19 @@ iframe{
 }
 
 .linkedin{
-	position: relative;
-	bottom: 10%;
-	left: 90%;
+		position: relative;
+		left: -10%;
+		top: 50%;
 }
 
 .linkedin:hover{
 	-webkit-transition: all .4s ease-in-out;
 	-webkit-transform: scale(1.4);
 }
+
+*{
+		border: 1px solid black;
+	}	
 
 /*---------------------------------*/
 
@@ -241,15 +244,15 @@ iframe{
 }
 
 @media only screen and (max-width: 450px){
+
 	.mudarTamanho li a{
 		font-size: 30px;
 	}
 
-	#mudarBotao{
+	/*#mudarBotao{
 		position: absolute;
-		left: 70%;
-		bottom: 20%;	
-	}
+		right: 100%;
+	}*/
 
 	.rosto{
 		position: relative;
@@ -272,15 +275,16 @@ iframe{
 		padding-left: 0;
 	}
 
-	.linkedin{
-		position: relative;
-		left: 75%;
+	/*.linkedin{
+		position: absolute;
+		left: 0;
 		top: 0;
-	}
+	}*/
 
 	.carousel-control-prev, .carousel-control-next{
 		margin-top: 90%;
-	}	
+	}
+	
 }
 
 

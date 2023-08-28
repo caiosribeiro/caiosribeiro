@@ -269,6 +269,7 @@ iframe{
 		width: 100%;
 		position: relative;
 		right: 10%;
+		top: 120px;
 	}
 
 	#apresentacao{
@@ -280,7 +281,7 @@ iframe{
 	.linkedin{
 		position: relative;
 		right: 15%;
-		top: 190px;
+		top: 170px;
 	}
 
 	.carousel-control-prev, .carousel-control-next{

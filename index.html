@@ -144,7 +144,15 @@
 								<div class="col-2"></div>
 
 								<div class="col-6 bg-secondary ">
-									<div class="carousel slide carousel-fade" data-bs-ride="carousel">
+									<div id="carousel" class="carousel slide carousel-fade">
+										<div class="carousel-indicators">
+											<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+											<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+											<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+											<button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+											<button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+										</div>
+										
 										<div class="carousel-inner">
 											<div class="carousel-item active pb-4 pl-4 pr-4" >
 												<i class="fa-solid fa-expand fa-2xl fullscreen fullscreenLadoD" style="color: #000000;"onclick="fullscreen('c1'); return false"></i>
@@ -172,12 +180,12 @@
 											</div>
 										</div>
 
-										<button class="carousel-control-prev" type="button" data-bs-target=".carousel" data-bs-slide="prev">
+										<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
 											<i class="fa-sharp fa-solid fa-circle-left fa-beat fa-2xl" style="color: #005eff;"></i>
 											<span class="visually-hidden">Previous</span>
 										</button>
 
-										<button class="carousel-control-next" type="button" data-bs-target=".carousel" data-bs-slide="next">
+										<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
 											<i class="fa-sharp fa-solid fa-circle-right fa-beat fa-2xl" style="color: #005eff;"></i>
 											<span class="visually-hidden">Next</span>
 										</button>											
@@ -213,7 +221,7 @@
 
 							<div class="col-6 bg-secondary ">
 
-								<div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+								<div id="carousel1" class="carousel slide carousel-fade">
 
 									<div class="carousel-inner">
 
@@ -299,7 +307,7 @@
 			<h1 id="projetos" class="p-5 text-center text-light">Projetos</h1>
 			<div class="row bg-secondary ">
 				<article class="container ">
-					<div id="carousel2" class="carousel slide carousel-fade amostra-projeto" data-bs-ride="carousel">
+					<div id="carousel2" class="carousel slide carousel-fade amostra-projeto">
 						<div class="carousel-inner">
 							<div class="carousel-item active bg-secondary pb-4 pl-4 pr-4">
 								<i class="fa-solid fa-expand fa-2xl fullscreen " style="color: #000000;"onclick="fullscreen('p1'); return false"></i>
